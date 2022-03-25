@@ -1,0 +1,43 @@
+Settings:
+  noDamage: true # Запрет урона
+  noHunger: true # Запрет голода
+  noBreak: true # Запрет ломания блоков
+  noPlace: true # Запрет установки блоков
+  noFire: true # Запрет распостранения огня и сгорания блоков
+  noExplosions: true # Запрет взрывов
+  noMessage: true # Отключает сообщения при входе/выходе/кике/смерти
+  noChat: true # Отключает чат
+  noCommands: true # Отключает использование команд
+  GameMode: ADVENTURE # Выдача игрового режима при заходе
+
+allowed_commands: # работает только если noCommands == true
+  - menu
+
+Effects:
+  Invisibility: true # Выдача эффекта невидимости при заходе
+  Speed: true # Выдача эффекта скорости при заходе
+  BlindNess: false # Выдача эффекта слепоты при заходе
+
+LvlonJoin:
+  enabled: true # Включить выдачу опыта при заходе
+  amount: 1337 # Кол-во выдаваемого опыта
+
+Time:
+  fixed: true # Зафиксировать время в мире
+  meaning: 0 # Значение на котором зафиксировать
+  #Значение meaning: 0 - День
+  #Значение meaning: 15000 - Ночь
+
+Permissions:
+  bypassChat: "bypassChat" # Право чтобы писать в чат если он отключён
+  bypassCommands: "bypassCommands" # Право чтобы писать команды в чат
+  bypassBreak: "bypassBreak" # Право чтобы ломать блоки если это запрещено
+  bypassPlace: "bypassPlace" # Право чтобы ставить блоки если это запрещено
+
+##
+#
+# • TattyLobby •
+# Значение true означает включено
+# Значение false означает выключено
+#
+##

@@ -1,0 +1,5 @@
+name: TattyLobby
+version: '1.0-SNAPSHOT'
+main: org.glockinmybape.tattylobby.TattyLobby
+authors: [ glockinmybape ]
+description: TattyLobby
